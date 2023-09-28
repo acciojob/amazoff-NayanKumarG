@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class OrserService {
+public class OrderService {
 
     OrderRespository orderRepository = new OrderRespository();
     public void addOrder(Order order) {
