@@ -6,14 +6,14 @@ import java.util.HashMap;
 import java.util.*;
 
 @Repository
-public class OrderRespository {
+public class OrderRepository {
     private HashMap<String , Order> orders;
     private HashMap<String , DeliveryPartner> partners;
     private HashMap<String, List<String>> partnerOrderHashMap;
     private HashMap<String, String> orderPartnerHashMap;
     private Integer orderAssignedToPartner;
 
-    public OrderRespository() {
+    public OrderRepository() {
         orders = new HashMap<>();
         partners = new HashMap<>();
         partnerOrderHashMap = new HashMap<>();
